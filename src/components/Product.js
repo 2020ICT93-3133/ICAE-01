@@ -27,7 +27,7 @@ export default function Product({ key, product, setCart, setTotal }) {
           alt={product.name}
         />
         <div class="card-body">
-          <h5 class="card-title">{product.name} Price:</h5>
+          <h5 class="card-title">{product.name} Price : {product.price}</h5>
           <div class="quantity-container">
             <label for="quantity">Quantity:</label>
             <input
